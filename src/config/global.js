@@ -1,9 +1,7 @@
 export default {
   global: {
-    componenteFormativo:
-      'Prevención, minimización y manejo interno de residuos sólidos peligrosos.',
-    descripcionCurso:
-      'Para prevenir y/o minimizar los residuos peligrosos dentro de una empresa, es necesario tener claro los proceso, actividades, insumos y materias primas que hacen parte de la planta de producción, con esa información se pueden realizar diferentes análisis y estrategias para llegar a ese objetivo de minimizar los residuos. Por otro lado, pero hacia el mismo objetivo, la empresa se debe comprometer con el buen manejo interno de estos residuos, su alistamiento, rotulado y etiquetado, movilización interna y almacenamiento.',
+    componenteFormativo: 'Manejo externo RESPEL, control y seguimiento',
+    descripcionCurso: 'No tiene el texto aun',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -37,63 +35,42 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Prevención y minimización',
+        titulo: 'Manejo externo',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: '¿Qué es un residuo peligroso?',
+            titulo: 'Objetivos y metas',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
             titulo:
-              '¿Qué es un plan de gestión integral de residuos peligrosos? ',
+              ' Responsabilidades para los generadores y el transportador',
             hash: 't_1_2',
           },
           {
             numero: '1.3',
-            titulo: 'Identificación de fuentes de generación ',
+            titulo: 'Alternativas de manejo y disposición final de RESPEL',
             hash: 't_1_3',
-          },
-          {
-            numero: '1.4',
-            titulo:
-              'Clasificación e identificación de características de peligrosidad',
-            hash: 't_1_4',
-          },
-          {
-            numero: '1.5',
-            titulo: 'Cuantificación de la generación',
-            hash: 't_1_5',
-          },
-          {
-            numero: '1.6',
-            titulo: 'Alternativas de prevención y minimización.',
-            hash: 't_1_6',
           },
         ],
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Manejo interno de los residuos sólidos peligrosos',
+        titulo: 'Control y seguimiento',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Procedimiento',
+            titulo: 'Definición',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Aspectos para tener en cuenta',
+            titulo: 'Diferencias entre registro e identificación',
             hash: 't_2_2',
-          },
-          {
-            numero: '2.3',
-            titulo: 'Contingencias en manejo de residuos peligrosos',
-            hash: 't_2_3',
           },
         ],
       },

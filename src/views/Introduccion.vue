@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    p.mb-5 En el siguiente video se presenta la introducción al componente, en el cual se tratarán temas de prevención y minimización de los residuos peligrosos.
+    p.mb-5 En el siguiente video se realiza una introducción al componente, donde se expone de manera didáctica y práctica los conceptos tratados en este #[b componente.]
     
     figure.mb-5
       .video

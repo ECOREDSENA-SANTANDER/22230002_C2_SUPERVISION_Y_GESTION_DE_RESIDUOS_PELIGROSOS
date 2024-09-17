@@ -3,11 +3,8 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        img(src="@/assets/curso/titulo.svg", alt="alt")
-        .py-3
-        p.mb-5 Identificar correctamente las fuentes de generación de residuos peligrosos y plantearse objetivos y metas para su minimización le permite reducir costos a las organizaciones, y contribuye a la preservación del medio ambiente. Por su parte, el buen manejo interno de los residuos peligrosos permite mantener seguros a los empleados, visitantes y clientes. En el siguiente cuadro, se presentan los conceptos claves trabajados dentro de este componente formativo:
+
+    p.mb-5 Falta este texto no esta en el XD
 
     .row.justify-content-center
       .col-lg-10.mb-5
