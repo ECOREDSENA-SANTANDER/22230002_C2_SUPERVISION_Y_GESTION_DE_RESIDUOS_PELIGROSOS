@@ -8,7 +8,7 @@
       h1 Prevención y minimización
 
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
-      .col-lg-5.py-2.col-sm-12
+      .col-lg-5.py-2.col-sm-11
         img(src='@/assets/curso/temas/tema1/img01.png', alt='')
       .col-lg-1.col-4.py-2.col-sm-2
         img(src='@/assets/curso/temas/tema1/img02.svg', alt='')
@@ -64,12 +64,12 @@
           p Para asegurarse que estas recomendaciones se cumplan es recomendable establecer y documentar un procedimiento de verificación del desempeño de según lo establecido en la normatividad. Esto permitirá reconocer el estado de los vehículos y el cumplimiento de todos los requisitos establecidos.
 
     .row.justify-content-start.mb-4
-      .col-sm-12.col-lg-7
+      .col-sm-12.col-lg-7.col-12
         .d-flex.align-items-center
           h3.bg131.py-2.w-card-text Condiciones que debe cumplir el transportador
       
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9
+      .col-lg-9.col-sm-12
         TabsA.color-acento-botones
           .tarjeta.bg1.p-4(titulo="Rótulos de identificación")
             h4 Rótulos de identificación
@@ -87,7 +87,7 @@
             h4 Equipo para la recolección y limpieza de derrames
             p Según el tipo de residuo peligroso transportado y debe estar disponible en caso de un derrame accidental. 
 
-      .col-lg-3
+      .col-lg-3.col-sm-6.py-2.col-8
         img(src='@/assets/curso/temas/tema1/img07.svg', alt='')
 
 
@@ -236,5 +236,104 @@
     separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.3 Alternativas de manejo y disposición final de RESPEL
+
+    p Algunos RESPEL pueden ser usados por otros procesos como materia prima o se puede aprovechar parcialmente algunas de sus partes, veamos algunos ejemplos:
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-9
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta color-primario")
+          .row(titulo="El aceite usado")
+            .col-md-12.mb-4.mb-md-0
+              p El aceite usado se puede ser aprovechado como combustible industrial, se puede utilizar para hacer nuevas bases lubricantes o en el proceso de combustibles alternativos.
+
+          div(titulo="Las baterías de plomo")
+            .col-md-12.mb-4.mb-md-0
+              p Las baterías de plomo ácido son desensambladas para recuperar el plomo y utilizarlo en la producción de nuevas baterías.
+          
+          div(titulo="Los tubos fluorescentes")
+            .col-md-12.mb-4.mb-md-0
+              p Los tubos fluorescentes usados son ingresados a un proceso industrial para recuperar el mercurio y reciclar sus partes.
+          
+          div(titulo="Los solventes")
+            .col-md-12.mb-4.mb-md-0
+              p Los solventes usados son ingresados a un proceso industrial para su recuperación. 
+      .col-lg-3.col-sm-8.col-8
+        img(src='@/assets/curso/temas/tema1/img11.png', alt='tema1')
+
+    p En la siguiente tabla se presentan algunos de los tratamientos más usados:
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        TabsB.color-acento-contenido.mb-5
+          .py-4.py-md-5(titulo="Tratamiento térmico" :icono="require('@/assets/curso/temas/tema1/ico1.svg')")
+            .row
+              .col-md-4.mb-4.mb-md-0.col-9
+                img(src='@/assets/curso/temas/tema1/img12.png', alt='tema1')
+              .col-md-8
+                h5 Tratamiento térmico
+                p Las técnicas de tratamiento térmico de residuos se dividen en dos grandes categorías:
+                ol.lista-ol--cuadro
+                  li
+                  .lista-ol--cuadro__vineta
+                    span 1
+                  | Los residuos se queman en presencia de oxígeno mediante la técnica de incineración.
+                  li
+                  .lista-ol--cuadro__vineta
+                    span 2
+                  | Los residuos se someten a altas temperaturas en ausencia o presencia mínima de oxígeno, de modo que no haya combustión directa. Para esto se utiliza la pirólisis (a veces denominada termólisis) y la gasificación.
+                p La pirólisis se define como la degradación térmica de una sustancia en ausencia de oxígeno o con una cantidad limitada del mismo. Como resultado, se producirá durante la pirólisis cierta oxidación y se formarán, por tanto, dioxinas y otros productos relacionados con una combustión incompleta. La gasificación, se define como la transformación de una sustancia sólida o líquida en una mezcla gaseosa mediante oxidación parcial con aplicación de calor. La oxidación parcial se consigue normalmente restringiendo el nivel de oxígeno (o aire) en la cámara de postcombustión (pirólisis). El proceso se optimiza para generar la máxima cantidad de productos gaseosos de descomposición, normalmente monóxido de carbono, hidrógeno, metano, agua, nitrógeno y pequeñas cantidades de hidrocarburos superiores. Aunque la gasificación es un proceso pirolítico optimizado para la mayor obtención de gases, genera subproductos líquidos y sólidos que pueden contener altos niveles de contaminantes tóxicos. El grado de contaminación dependerá de la cantidad y el tipo de residuos tratados, de la técnica y de cómo se lleve a cabo. 
+          
+          .py-4.py-md-5(titulo="Tratamiento fisicoquímico" :icono="require('@/assets/curso/temas/tema1/ico2.svg')")
+            .row
+              .col-md-4.mb-4.mb-md-0.col-9
+                img(src='@/assets/curso/temas/tema1/img13.png', alt='tema1')
+              .col-md-8
+                h5 Tratamiento fisicoquímico
+                p Neutralización de residuos alcalinos exentos de cianuro.
+                ul.lista-ul--color
+                  li
+                    i.fas.fa-biohazard
+                    | Reducción de residuos que contienen cromo VI a cromo III.
+                  li
+                    i.fas.fa-biohazard
+                    | Oxidación química de residuos que contienen cianuro inorgánico usando hipoclorito.
+                  li
+                    i.fas.fa-biohazard
+                    | Tratamiento de taladrinas.
+                  li
+                    i.fas.fa-biohazard
+                    | Precipitación de metales de efluentes del resto de procesos.
+                  li
+                    i.fas.fa-biohazard
+                    | Separación de fases de residuos acuosos contaminados con hidrocarburos mediante tratamiento físico.
+
+
+          .py-4.py-md-5(titulo="Relleno sanitario" :icono="require('@/assets/curso/temas/tema1/ico3.svg')")
+            .row
+              .col-md-4.mb-4.mb-md-0.col-9
+                img(src='@/assets/curso/temas/tema1/img14.png', alt='tema1')
+              .col-md-8
+                h5 Relleno sanitario
+                p Es una técnica de disposición final de residuos sólidos que consiste en el enterramiento de residuos en capas, más otra capa de tierra o material de cobertura, ambas son compactadas sobre un suelo previamente impermeabilizado, de tal manera que se evite la contaminación del suelo y las agua subterráneas.
+                p En los rellenos sanitarios se generan lixiviados que son los líquidos producto de la descomposición de los residuos orgánicos y la inclusión de las aguas lluvias. Estos deben ser recolectados mediante filtros y transportados a plantas de tratamiento antes de ser vertidos en el suelo o en aguas superficiales. Los gases son otros productos generados por la descomposición de los residuos; éstos se recogen mediante filtros y se sacan a la atmósfera por chimeneas, en las que a su salida se queman, con el fin de disminuir su grado de contaminación. En algunos casos se utilizan estos gases para generar energía.
+            figcaption Fuente. Universidad Pontificia Bolivariana (2008)
+             
+    .row.justify-content-start.mb-4
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          h3.bg131.py-2.w-card-text Disposición final 
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img14.svg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            .col-col-lg-5
+              h5.color-primario Celda de seguridad
+            br
+            br
+            p.mb-0 Cuando los residuos peligrosos no pueden tener un tratamiento por sus características de peligrosidad, son llevados a una celda de seguridad que es un sistema tecnificado para poder disponer de forma controlada y ambientalmente seguro los residuos peligrosos.
+          
 
 </template>
