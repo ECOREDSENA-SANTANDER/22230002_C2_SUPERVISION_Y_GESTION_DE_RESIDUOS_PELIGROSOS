@@ -51,10 +51,11 @@
                     i.fas.fa-biohazard
                     | “Los indicadores ambientales corresponden a aquellos que se ocupan de describir y mostrar los estados y las principales dinámicas ambientales, por ejemplo: calidad del agua.” (Quiroga, 2009).
     
-    .row.justify-content-start.mb-4
-      .col-sm-6.col-lg-7
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
         .d-flex.align-items-center
-          h3.bg131.py-2.w-card-text Premisas
+          img.w-card-icon(src="@/assets/curso/temas/tema1/icono.svg")
+          h3.bg13.py-2.w-card-text Premisas
         .py-2  
         h5.bg121.p-2.text-white Lo que no se puede medir no se puede cambiar. 
         h5.bg122.p-2.text-white Lo que no se puede medir no existe.
@@ -99,38 +100,40 @@
                       figure
                         img.d-none.d-lg-block(src='@/assets/curso/temas/tema2/img2.svg', alt='tema1')
 
-    .row.justify-content-start.mb-4
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
         .d-flex.align-items-center
-          h3.bg131.py-2.w-card-text Características o atributos de los indicadores
+          img.w-card-icon(src="@/assets/curso/temas/tema1/icono.svg")
+          h3.bg13.py-2.w-card-text Características o atributos de los indicadores
 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-5.mb-md-0.col-sm-12
         LineaTiempoD
-          p.text-small(numero="1" titulo="Relevante para el ítem de medición") El indicador debe medir el problema o condición real.
+          p.text-small(numero="a" titulo="Relevante para el ítem de medición") El indicador debe medir el problema o condición real.
 
               
-          p.text-small(numero="2" titulo="Entendible para sus usuarios") El propósito del indicador debe ser claro e interpretado sólo de una manera.
+          p.text-small(numero="b" titulo="Entendible para sus usuarios") El propósito del indicador debe ser claro e interpretado sólo de una manera.
 
               
-          p.text-small(numero="3" titulo="Basado en información confiable") Los usuarios deben confiar en lo que muestra el indicador.
+          p.text-small(numero="c" titulo="Basado en información confiable") Los usuarios deben confiar en lo que muestra el indicador.
 
               
-          p.text-small(numero="4" titulo="Transparente") Terceras partes deben estar en capacidad de verificar el origen del valor del indicador.
+          p.text-small(numero="d" titulo="Transparente") Terceras partes deben estar en capacidad de verificar el origen del valor del indicador.
 
       
-          p.text-small(numero="5" titulo="Basado en información específica con relación al lugar y el tiempo")  El indicador debe reflejar condiciones específicas claras que permitan reaccionar de manera adecuada a los resultados que arrojan.
+          p.text-small(numero="e" titulo="Basado en información específica con relación al lugar y el tiempo")  El indicador debe reflejar condiciones específicas claras que permitan reaccionar de manera adecuada a los resultados que arrojan.
               
-          p.text-small(numero="6" titulo="Que se pueda influir") Posibilidad de intervención. (Universidad Icesi, 2010)
+          p.text-small(numero="f" titulo="Que se pueda influir") Posibilidad de intervención. (Universidad Icesi, 2010)
 
       .col-lg-4.col-sm-8.col-8
         img(src='@/assets/curso/temas/tema2/img3.png', alt='tema1')
     
-    .row.justify-content-start.mb-4
-      .col-sm-8.col-lg-7
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
         .d-flex.align-items-center
-          h3.bg131.py-2.w-card-text Establecimiento de indicadores
+          img.w-card-icon(src="@/assets/curso/temas/tema1/icono.svg")
+          h3.bg13.py-2.w-card-text Establecimiento de indicadores
       .py-2
       p Con relación a los objetivos. Se refiere a la meta numérica que se desea alcanzar, Ejemplo: disminuir en un 10%
 

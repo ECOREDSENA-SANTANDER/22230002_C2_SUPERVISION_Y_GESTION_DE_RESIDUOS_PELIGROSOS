@@ -1,7 +1,8 @@
 export default {
   global: {
     componenteFormativo: 'Manejo externo RESPEL, control y seguimiento',
-    descripcionCurso: 'No tiene el texto aun',
+    descripcionCurso:
+      'En este componente se describen detalladamente las actividades que son obligaciones de las empresas generadoras de residuos peligrosos y las empresas gestoras y sus transportadores, resaltando la importancia de realizarlas de manera responsable. Adicionalmente, se describen los procesos de control y seguimiento para garantizar la efectividad del plan de manejo integral de residuos peligrosos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -123,61 +124,80 @@ export default {
   referencias: [
     {
       referencia:
-        'de Los Desechos Peligrosos Y Su Eliminación, S. E. L. C. D. E. L. M. T. (s/f). CONVENIO DE BASILEA. Basel.int. Recuperado el 2 de septiembre de 2024, de',
+        'Centro Coordinador del Convenio de Basilea para América Latina y el Caribe. (2005). Guía para la Gestión Integral de Residuos Peligrosos. Fundamentos Tomo I. Consultado en: ',
       link:
-        'https://www.basel.int/Portals/4/Basel%20Convention/docs/text/BaselConventionText-s.pdf',
+        'https://cempre.org.uy/docs/biblioteca/guia_para_la_gestion_integral_residuos/gestion_respel01_fundamentos.pdf ',
     },
     {
       referencia:
-        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2007). Gestión Integral de Residuos o Desechos Peligrosos. Bogotá, Colombia: Ministerio de Ambiente, Vivienda y Desarrollo Territorial. ',
+        ' Goncalves, A. (2013). ¿Qué es un relleno de seguridad? Consultado en: ',
+      link: 'https://www.youtube.com/watch?v=V4p7JrPk7bo ',
+    },
+    {
+      referencia:
+        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2005). Lineamientos para la elaboración de planes de gestión integral de residuos o desechos peligrosos a cargo de generadores. Consultado el 03 de agosto de 2014, en:',
+      link:
+        'http://ambientebogota.gov.co/documents/10157/220914/Lineamientos_Planes_de_Gestion.pdf  ',
+    },
+    {
+      referencia:
+        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (s.f.) Transporte por carretera de sustancias químicas nocivas y residuos peligrosos. Bogotá: Ministerio de Ambiente, Vivienda y Desarrollo Territorial. ',
       link: '',
     },
     {
       referencia:
-        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. Decreto 4741 de 2005. Por el cual se reglamenta parcialmente la prevención y el manejo de los residuos o desechos peligrosos generados en el marco de la gestión integral. Consultado el 03 de agosto de 2014, en',
-      link: 'http://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=18718',
+        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. Decreto 4741de 2005. Por el cual se reglamenta parcialmente la prevención y el manejo de los residuos o desechos peligrosos generados en el marco de la gestión integral.Consultado el 03 de agosto de 2014, en:',
+      link:
+        'http://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=18718  ',
+    },
+    {
+      referencia:
+        'Ministerio de transporte. Decreto 1609 de 2002. Por el cual se reglamenta el manejo y transporte terrestre automotor de mercancías peligrosas por carretera. Consultado el 03 de agosto de 2014, en:',
+      link:
+        'https://www.google.com.co/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CBoQFjAA&url=https%3A%2F%2Fwww.mintransporte.gov.co%2Fdescargar.php%3Fid%3D2914&ei=MhLfU8zcLbLNsQTj-oKgCg&usg=AFQjCNHDuZj4XJW0PJ4ZMrGqhEPSk36Mxw&sig2=n7WmLuXfcne7pOj_rSfDiQ&bvm=bv.72197243,d.aWw&cad=rja',
     },
   ],
   glosario: [
     {
-      termino: 'Acondicionamiento ',
-      significado: 'NO PERMITE DILIGENCIAR LOS TEXTOS DEL DI SON MUY LARGOS',
+      termino: 'Celda de seguridad',
+      significado:
+        'Depósito de Seguridad diseñado para contener sustancias potencialmente peligrosas para la salud humana y el ambiente. ',
     },
     {
-      termino: 'Comburente',
-      significado: '',
-    },
-    {
-      termino: 'Contingencia ',
-      significado: '',
+      termino: 'Control ',
+      significado: 'Comprobación, inspección, fiscalización, intervención. ',
     },
     {
       termino: 'EPP ',
-      significado: '',
+      significado: 'Elementos de protección personal ',
     },
     {
-      termino: 'Irritante  ',
-      significado: '',
+      termino: 'Gasificación ',
+      significado:
+        'Transformación de una sustancia sólida o líquida en una mezcla gaseosa mediante oxidación parcial con aplicación de calor ',
     },
     {
-      termino: 'Peligrosidad ',
-      significado: '',
+      termino: 'Hoja de seguridad ',
+      significado:
+        'Documento que proporciona información básica sobre un material o sustancia química determinada ',
     },
     {
-      termino: 'PMIRESPEL ',
-      significado: '',
+      termino: 'Pirólisis ',
+      significado:
+        'Degradación térmica de una sustancia en ausencia de oxígeno o con una cantidad limitada del mismo. ',
     },
     {
       termino: 'Plan de Acción ',
-      significado: '',
+      significado:
+        'Establece los procedimientos que se deben llevar a cabo en caso de una emergencia. ',
+    },
+    {
+      termino: 'Relleno sanitario ',
+      significado: 'Método diseñado para la disposición final de la basura. ',
     },
     {
       termino: 'RESPEL ',
-      significado: '',
-    },
-    {
-      termino: 'Tóxico',
-      significado: '',
+      significado: 'Residuos peligrosos ',
     },
   ],
   complementario: [
@@ -237,12 +257,12 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de línea de producción',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -251,41 +271,28 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Manuel Augusto Arias López',
-          cargo: 'Instructor - Experto temático ',
-          centro: 'Regional Quindío - Centro de Comercio y Servicios',
+          nombre: 'Hernando Enrique Bohórquez Ariza ',
+          cargo: 'Experto temático ',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital ',
         },
         {
-          nombre: 'Vilma Perilla Méndez',
-          cargo: 'Evaluadora Instruccional',
-          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+          nombre: 'Gissela Alvis Norma Buenaventura ',
+          cargo: 'Asesoras pedagógicas ',
+          centro: 'Centro de Industria y la Construcción ',
         },
         {
-          nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Diseñador Instruccional',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          nombre: 'Diana Rocío Possos  ',
+          cargo: 'Líder ',
+          centro: 'Centro de Industria y de la Construcción ',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor Pedagógico',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Julieth Paola Vital López',
-          cargo: 'Correctora de Estilo',
-          centro:
-            'Regional Distrito Capital - Centro para la Industria y la Comunicación Gráfica',
-        },
-        {
-          nombre: 'Martha Isabel Martínez Vargas',
-          cargo: 'Productora audiovisual',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          nombre: 'Carmen Fernández Sandra Rodríguez',
+          cargo: 'Editoras de contenido ',
+          centro: 'Centro de Industria y la Construcción  ',
         },
         {
           nombre: 'Carolina Jiménez Suescún',
-          cargo: 'Evaluadora Instruccional',
+          cargo: 'Evaluadora instruccional',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -294,18 +301,18 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Edison Eduardo Mantilla Cuadros',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Yazmin Rocio Figueroa Pacheco',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Leonardo Castellanos Rodriguez',
-          cargo: 'Desarrollador <em>Fullstack</em>',
+          cargo: 'Desarrollador <em>fullstack</em>',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Maria Alejandra Vera Briceño',
-          cargo: 'Animadora y Productora Multimedia',
+          cargo: 'Animadora y productora multimedia',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -314,13 +321,8 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Yineth Ibette Gonzalez Quintero',
-          cargo: 'Validadora de Recursos Educativos Digitales',
-          centro: 'Regional Santander - Centro Agroturístico',
-        },
-        {
           nombre: 'Laura Paola Gelvez Manosalva',
-          cargo: 'Validadora de Recursos Educativos Digitales',
+          cargo: 'Validadora de recursos educativos digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {

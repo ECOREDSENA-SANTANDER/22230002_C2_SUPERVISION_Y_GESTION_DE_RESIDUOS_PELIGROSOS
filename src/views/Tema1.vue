@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Prevención y minimización
+      h1 Manejo externo
 
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-lg-5.py-2.col-sm-11
@@ -47,10 +47,12 @@
         .col-lg-3.col-8
           img(src='@/assets/curso/temas/tema1/img04.png', alt='tema1')     
 
-    .row.justify-content-start.mb-4
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
         .d-flex.align-items-center
-          h3.bg131.py-2.w-card-text Transportadores de residuos peligrosos
+          img.w-card-icon(src="@/assets/curso/temas/tema1/icono.svg")
+          h3.bg13.py-2.w-card-text Transportadores de residuos peligrosos
+          
 
 
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
@@ -63,10 +65,11 @@
           p Según el Ministerio de Ambiente, Vivienda y Desarrollo Territorial (s.f.) para garantizar un transporte seguro de los residuos peligrosos, los vehículos deben cumplir con identificación y condiciones técnicas específicas. Quienes intervengan en la cadena de transporte de los residuos peligrosos tienen la responsabilidad conjunta de asegurar que estos requisitos se cumplan.
           p Para asegurarse que estas recomendaciones se cumplan es recomendable establecer y documentar un procedimiento de verificación del desempeño de según lo establecido en la normatividad. Esto permitirá reconocer el estado de los vehículos y el cumplimiento de todos los requisitos establecidos.
 
-    .row.justify-content-start.mb-4
-      .col-sm-12.col-lg-7.col-12
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
         .d-flex.align-items-center
-          h3.bg131.py-2.w-card-text Condiciones que debe cumplir el transportador
+          img.w-card-icon(src="@/assets/curso/temas/tema1/icono.svg")
+          h3.bg13.py-2.w-card-text Condiciones que debe cumplir el transportador
       
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9.col-sm-12
@@ -83,26 +86,27 @@
           .tarjeta.bg1.p-4(titulo="Equipo de protección personal")
             h4 Equipo de protección personal para atención a emergencias
             p Que debe estar disponible para casos de contacto o inhalación de sustancias provenientes de residuos peligrosos. El personal debe estar capacitado y entrenado en su uso.
-          .tarjeta.bg1.p-4(titulo="Equipo para la recolección")
+          .tarjeta.bg1.p-4(titulo="Equipo para la recolección y limpieza de derrames")
             h4 Equipo para la recolección y limpieza de derrames
             p Según el tipo de residuo peligroso transportado y debe estar disponible en caso de un derrame accidental. 
 
       .col-lg-3.col-sm-6.py-2.col-8
         img(src='@/assets/curso/temas/tema1/img07.svg', alt='')
 
-
-    .row.justify-content-start.mb-4
-      .col-sm-12.col-lg-7
-        .d-flex.align-items-center
-          h3.bg131.py-2.w-card-text Documentación de manejo para el personal del vehículo
-
-    
+    .py-3
+    p Dentro de las obligaciones de los operarios de los vehículos transportadores de residuos peligrosos, se encuentra el manejo de ciertos documentos, los cuales se mencionan en la siguiente figura: 
+    .row.justify-content-center.mb-4
+      .col-sm-12.col-lg-6
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Figura 1.
+          span Documentación de manejo para el personal del vehículo
+        
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-5
         ImagenInfografica
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema1/infografia.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/infografia.svg', alt=' En la imagen se presenta un vehículo etiquetado con pictogramas de residuos peligrosos y en el fondo un globo terráqueo, además se enuncian los diferentes documentos que deben manejar  los operadores del vehículo transportador.')
     
           .tarjeta.color-primario.p-3(x="10%" y="41%" numero="+")
             p.mb-2.text-center Instrucciones de operación segura de los equipos de protección personal.
@@ -115,7 +119,7 @@
 
           .tarjeta.color-primario.p-3(x="86%" y="51%" numero="+")
             p.mb-2.text-center Instrucciones y procedimientos sobre emergencias. 
-
+    
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.2 Responsabilidades para los generadores y el transportador
@@ -259,7 +263,7 @@
       .col-lg-3.col-sm-8.col-8
         img(src='@/assets/curso/temas/tema1/img11.png', alt='tema1')
 
-    p En la siguiente tabla se presentan algunos de los tratamientos más usados:
+    p En el siguiente recurso se presentan algunos de los tratamientos más usados:
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -315,25 +319,16 @@
                 h5 Relleno sanitario
                 p Es una técnica de disposición final de residuos sólidos que consiste en el enterramiento de residuos en capas, más otra capa de tierra o material de cobertura, ambas son compactadas sobre un suelo previamente impermeabilizado, de tal manera que se evite la contaminación del suelo y las agua subterráneas.
                 p En los rellenos sanitarios se generan lixiviados que son los líquidos producto de la descomposición de los residuos orgánicos y la inclusión de las aguas lluvias. Estos deben ser recolectados mediante filtros y transportados a plantas de tratamiento antes de ser vertidos en el suelo o en aguas superficiales. Los gases son otros productos generados por la descomposición de los residuos; éstos se recogen mediante filtros y se sacan a la atmósfera por chimeneas, en las que a su salida se queman, con el fin de disminuir su grado de contaminación. En algunos casos se utilizan estos gases para generar energía.
+            
+          .py-4.py-md-5(titulo="Disposición final" :icono="require('@/assets/curso/temas/tema1/ico4.svg')")
+            .row
+              .col-md-4.mb-4.mb-md-0.col-9
+                img(src='@/assets/curso/temas/tema1/img15.png', alt='tema1')
+              .col-md-8
+                h5 Celda de seguridad 
+                p Cuando los residuos peligrosos no pueden tener un tratamiento por sus características de peligrosidad, son llevados a una celda de seguridad que es un sistema tecnificado para poder disponer de forma controlada y ambientalmente seguro los residuos peligrosos.
+            .py-2
             figcaption Fuente. Universidad Pontificia Bolivariana (2008)
              
-    .row.justify-content-start.mb-4
-      .col-sm-12.col-lg-7
-        .d-flex.align-items-center
-          h3.bg131.py-2.w-card-text Disposición final 
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img14.svg')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            .col-col-lg-5
-              h5.color-primario Celda de seguridad
-            br
-            br
-            p.mb-0 Cuando los residuos peligrosos no pueden tener un tratamiento por sus características de peligrosidad, son llevados a una celda de seguridad que es un sistema tecnificado para poder disponer de forma controlada y ambientalmente seguro los residuos peligrosos.
-          
-
+  
 </template>
