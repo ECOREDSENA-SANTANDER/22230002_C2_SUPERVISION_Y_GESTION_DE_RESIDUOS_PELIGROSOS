@@ -107,7 +107,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CF2_22230002_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -169,17 +169,17 @@ export default {
     },
     {
       termino: 'EPP ',
-      significado: 'Elementos de protección personal ',
+      significado: 'Elementos de protección personal. ',
     },
     {
       termino: 'Gasificación ',
       significado:
-        'Transformación de una sustancia sólida o líquida en una mezcla gaseosa mediante oxidación parcial con aplicación de calor ',
+        'Transformación de una sustancia sólida o líquida en una mezcla gaseosa mediante oxidación parcial con aplicación de calor. ',
     },
     {
       termino: 'Hoja de seguridad ',
       significado:
-        'Documento que proporciona información básica sobre un material o sustancia química determinada ',
+        'Documento que proporciona información básica sobre un material o sustancia química determinada. ',
     },
     {
       termino: 'Pirólisis ',
@@ -197,7 +197,7 @@ export default {
     },
     {
       termino: 'RESPEL ',
-      significado: 'Residuos peligrosos ',
+      significado: 'Residuos peligrosos. ',
     },
   ],
   complementario: [
@@ -263,7 +263,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de línea de producción',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -293,7 +293,7 @@ export default {
         {
           nombre: 'Carolina Jiménez Suescún',
           cargo: 'Evaluadora instruccional',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -303,17 +303,17 @@ export default {
         {
           nombre: 'Yazmin Rocio Figueroa Pacheco',
           cargo: 'Diseñador de contenidos digitales',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Leonardo Castellanos Rodriguez',
           cargo: 'Desarrollador <em>fullstack</em>',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Maria Alejandra Vera Briceño',
           cargo: 'Animadora y productora multimedia',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -323,12 +323,12 @@ export default {
         {
           nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Validadora de recursos educativos digitales',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Erika Fernanda Mejía Pinzón',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },

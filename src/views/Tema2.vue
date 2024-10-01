@@ -135,7 +135,7 @@
           img.w-card-icon(src="@/assets/curso/temas/tema1/icono.svg")
           h3.bg13.py-2.w-card-text Establecimiento de indicadores
       .py-2
-      p Con relación a los objetivos. Se refiere a la meta numérica que se desea alcanzar, Ejemplo: disminuir en un 10%
+      p Con relación a los objetivos. Se refiere a la meta numérica que se desea alcanzar, Ejemplo: disminuir en un 10%.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.col-sm-7.py-2
