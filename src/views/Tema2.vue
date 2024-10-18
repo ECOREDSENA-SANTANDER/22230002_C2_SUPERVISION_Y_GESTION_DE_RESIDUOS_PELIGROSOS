@@ -15,7 +15,7 @@
       .col-lg-5.col-sm-9.col-8.py-2.col-12
         img(src='@/assets/curso/temas/tema2/img01.png', alt='')
       .col-lg-6.p-4.bg12
-        h5 Herramientas para clarificar y definir, de forma más precisa, objetivos e impactos (...) son medidas verificables de cambio o resultado (...) diseñadas para contar con un estándar contra el cual evaluar, estimar o demostrar el progreso (...) con respecto a metas establecidas, facilitan el reparto de insumos, produciendo (...) productos y alcanzando objetivos. 
+        h5 Herramientas para clarificar y definir, de forma más precisa, objetivos e impactos (...) son medidas verificables de cambio o resultado (...) diseñadas para contar con un estándar contra el cual evaluar, estimar o demostrar el progreso (...) con respecto a metas establecidas, facilitan el reparto de insumos, produciendo (...) productos y alcanzando objetivos.
         p - Organización de las Naciones Unidas (ONU).
 
     .row.align-items-center.justify-content-center.mb-4
@@ -135,7 +135,7 @@
           img.w-card-icon(src="@/assets/curso/temas/tema1/icono.svg")
           h3.bg13.py-2.w-card-text Establecimiento de indicadores
       .py-2
-      p Con relación a los objetivos. Se refiere a la meta numérica que se desea alcanzar, Ejemplo: disminuir en un 10%.
+      p Con relación a los objetivos. Se refiere a la meta numérica que se desea alcanzar, ejemplo: disminuir en un 10%.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.col-sm-7.py-2
@@ -151,7 +151,7 @@
                   h4.text-center Eficacia
                 .py-2
                   p.text-center Capacidad de alcanzar los objetivos y metas.
-                  p.text-center Kg de RESPEL generados / Número de Unidades producidas.
+                  p.text-center Kg de RESPEL generados / Número de unidades producidas.
 
             .tarjeta.color-secundario-cus.p-4
               .row.justify-content-center
@@ -183,6 +183,6 @@
                   h4.text-center Productividad del trabajo
 
                 .py-2
-                  p.text-center Kg de RESPEL Generados / Número de trabadores de la empresa.
+                  p.text-center Kg de RESPEL Generados / Número de trabajadores de la empresa.
 
 </template>

@@ -79,7 +79,7 @@
             p Que permitan identificar que se transporta residuos peligrosos. Los rótulos deben ser conforme al sistema internacional de la ONU.
           .tarjeta.bg1.p-4(titulo="Placa de identificación de la ONU")
             h4 Placa de identificación de la ONU
-            p Cuando se transporta más de una sustancia peligrosa en un mismo transporte, se debe fijar el Número correspondiente a la sustancia peligrosa que presente mayor peligrosidad.
+            p Cuando se transporta más de una sustancia peligrosa en un mismo transporte, se debe fijar el número correspondiente a la sustancia peligrosa que presente mayor peligrosidad.
           .tarjeta.bg1.p-4(titulo="Equipos de carretera")
             h4 Equipos de carretera
             p Según lo dispuesto en el artículo 30 del Código Nacional de Tránsito Terrestre: gato, cruceta, triángulos, lámparas de señal, botiquín de primeros auxilios, dos extintores, tacos, caja de herramientas, llanta de repuesto, linterna.
@@ -136,7 +136,7 @@
                     ul.lista-ul--color.line
                       li
                         i.fas.fa-biohazard
-                        | Contar con la autorización para el trasporte del tipo residuos peligrosos.
+                        | Contar con la autorización para el transporte del tipo residuos peligrosos.
 
                       li
                         i.fas.fa-biohazard
@@ -234,8 +234,8 @@
                       .col-lg-4
                         h5.bg13.p-2.mb-4 Entrega al transportador 
                       
-                      p El transportador debe cumplir con el decreto 1609 de 2002 “Por el cual se reglamenta el manejo y transporte terrestre automotor de mercancías peligrosas por carretera”, y el remitente de los RESPEL para garantizar ese cumplimiento debe realizar una verificación.
-                      p La herramienta más usada para verificar el cumplimiento del Decreto 1609 de 2002 es una lista de chequeo que relaciones los ítems que se deben cumplir, el remitente puede escoger la herramienta de su preferencia siempre y cuando se deje evidencia de la verificación.
+                      p El transportador debe cumplir con el decreto 1609 de 2002 “Por el cual se reglamenta el manejo y transporte terrestre automotor de mercancías peligrosas por carretera”, y el remitente de los RESPEL, para garantizar ese cumplimiento, debe realizar una verificación.
+                      p La herramienta más usada para verificar el cumplimiento del Decreto 1609 de 2002, es una lista de chequeo que relaciones los ítems que se deben cumplir, el remitente puede escoger la herramienta de su preferencia siempre y cuando se deje evidencia de la verificación.
 
     separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -247,7 +247,7 @@
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta color-primario")
           .row(titulo="El aceite usado")
             .col-md-12.mb-4.mb-md-0
-              p El aceite usado se puede ser aprovechado como combustible industrial, se puede utilizar para hacer nuevas bases lubricantes o en el proceso de combustibles alternativos.
+              p El aceite usado puede ser aprovechado como combustible industrial, se puede utilizar para hacer nuevas bases lubricantes o en el proceso de combustibles alternativos.
 
           div(titulo="Las baterías de plomo")
             .col-md-12.mb-4.mb-md-0
