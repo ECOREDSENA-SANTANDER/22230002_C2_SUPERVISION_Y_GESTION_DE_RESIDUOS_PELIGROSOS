@@ -95,11 +95,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -137,7 +132,7 @@ export default {
       referencia:
         'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2005). Lineamientos para la elaboración de planes de gestión integral de residuos o desechos peligrosos a cargo de generadores. Consultado el 03 de agosto de 2014, en:',
       link:
-        'http://ambientebogota.gov.co/documents/10157/220914/Lineamientos_Planes_de_Gestion.pdf  ',
+        'http://ambientebogota.gov.co/documents/10157/220914/Lineamientos_Planes_de_Gestion.pdf',
     },
     {
       referencia:
@@ -153,8 +148,7 @@ export default {
     {
       referencia:
         'Ministerio de transporte. Decreto 1609 de 2002. Por el cual se reglamenta el manejo y transporte terrestre automotor de mercancías peligrosas por carretera. Consultado el 03 de agosto de 2014, en:',
-      link:
-        'https://www.google.com.co/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CBoQFjAA&url=https%3A%2F%2Fwww.mintransporte.gov.co%2Fdescargar.php%3Fid%3D2914&ei=MhLfU8zcLbLNsQTj-oKgCg&usg=AFQjCNHDuZj4XJW0PJ4ZMrGqhEPSk36Mxw&sig2=n7WmLuXfcne7pOj_rSfDiQ&bvm=bv.72197243,d.aWw&cad=rja',
+      link: 'https://www.mintransporte.gov.co/descargar.php?id=2914',
     },
   ],
   glosario: [
@@ -198,57 +192,6 @@ export default {
     {
       termino: 'RESPEL ',
       significado: 'Residuos peligrosos. ',
-    },
-  ],
-  complementario: [
-    {
-      tema: 'Guía para la gestión integral de residuos peligrosos.',
-      referencia:
-        '(S/f). Edu.co. Recuperado de https://www.uptc.edu.co/export/sites/default/sig/doc/2018/guia_residuos.pdf ',
-      tipo: 'Guía',
-      link:
-        'https://www.uptc.edu.co/export/sites/default/sig/doc/2018/guia_residuos.pdf',
-    },
-    {
-      tema: 'Etiquetado de materiales peligrosos',
-      referencia:
-        'YouTube. (s/f). Youtu.Be. Recuperado de https://youtu.be/1vGRTvAgqso ',
-      tipo: 'Video',
-      link: 'https://youtu.be/1vGRTvAgqso',
-    },
-    {
-      tema: 'Manejo de residuos peligrosos ',
-      referencia:
-        'YouTube. (s/f). Youtu.Be. Recuperado de https://youtu.be/AbUirfP7h1Y ',
-      tipo: 'Video',
-      link: 'https://youtu.be/AbUirfP7h1Y ',
-    },
-    {
-      tema: 'Manejo y transporte seguro de residuos peligrosos',
-      referencia:
-        'YouTube. (s/f). Youtu.Be. Recuperado de https://youtu.be/uDJRkt3khpU',
-      tipo: 'Video',
-      link: 'https://youtu.be/uDJRkt3khpU ',
-    },
-    {
-      tema: 'Materiales peligrosos ',
-      referencia:
-        'YouTube. (s/f). Youtu.Be. Recuperado de https://youtu.be/79b8q3UCjDc ',
-      tipo: 'Video',
-      link: 'https://youtu.be/79b8q3UCjDc',
-    },
-    {
-      tema: 'Manejo de residuos peligrosos',
-      referencia:
-        'YouTube. (s/f). Youtu.Be. Recuperado de  https://youtu.be/t-V8qzBoBU0',
-      tipo: 'Video',
-      link: 'https://youtu.be/t-V8qzBoBU0',
-    },
-    {
-      tema: 'Manual de uso de productos químicos ',
-      referencia: '(S/f-b). Edu.co. Recuperado de Zajuna',
-      tipo: 'Manual',
-      link: '',
     },
   ],
   creditos: [
