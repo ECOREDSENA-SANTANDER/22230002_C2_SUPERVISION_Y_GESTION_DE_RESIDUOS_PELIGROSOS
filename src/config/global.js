@@ -132,7 +132,7 @@ export default {
       referencia:
         'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2005). Lineamientos para la elaboración de planes de gestión integral de residuos o desechos peligrosos a cargo de generadores. Consultado el 03 de agosto de 2014, en:',
       link:
-        'http://ambientebogota.gov.co/documents/10157/220914/Lineamientos_Planes_de_Gestion.pdf',
+        'https://www.ambientebogota.gov.co/documents/10184/507199/Lineamientos+generales+para+la+elaboraci%C3%B3n+de+planes+de+gesti%C3%B3n+integral.pdf/a742eb2b-ae47-42ed-a894-ebc7242979a6 ',
     },
     {
       referencia:
