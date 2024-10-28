@@ -63,7 +63,7 @@
           img(src='@/assets/curso/temas/tema1/img06.svg', alt='')
         .col-lg-12
           p Según el Ministerio de Ambiente, Vivienda y Desarrollo Territorial (s.f.) para garantizar un transporte seguro de los residuos peligrosos, los vehículos deben cumplir con identificación y condiciones técnicas específicas. Quienes intervengan en la cadena de transporte de los residuos peligrosos tienen la responsabilidad conjunta de asegurar que estos requisitos se cumplan.
-          p Para asegurarse que estas condiciones se cumplan es recomendable establecer y documentar un procedimiento de verificación del desempeño de según lo establecido en la normatividad. Esto permitirá reconocer el estado de los vehículos y el cumplimiento de todos los requisitos establecidos.
+          p Para asegurarse que estas condiciones se cumplan es recomendable establecer y documentar un procedimiento de verificación del desempeño según lo establecido en la normatividad. Esto permitirá reconocer el estado de los vehículos y el cumplimiento de todos los requisitos establecidos.
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7

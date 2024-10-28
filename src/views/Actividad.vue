@@ -10,7 +10,7 @@
             img(src="@/assets/template/falso.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Manejo externo de residuos peligrosos 
+          h2 Prevención, minimización y manejo interno de residuos sólidos peligrosos
         p.mb-4 Lea cada enunciado referente a los temas desarrollados en el componente formativo y elija entre verdadero y falso según corresponda. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
