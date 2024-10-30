@@ -1,2 +1,2 @@
 module.exports =
-  'Prevención, minimización y manejo interno de residuos sólidos peligrosos.'
+  'Manejo externo RESPEL, control y seguimiento'
